@@ -19,3 +19,14 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Main Idea
+# 1. We want to ignore the node_modules folder  
+# 2. We want to ignore the .astro folder
+# 3. We want to ignore the .env and .env.production files
+# 4. We want to ignore the .DS_Store and Thumbs.db files
+```
+
